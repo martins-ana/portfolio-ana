@@ -14,11 +14,14 @@ function Home_Initial() {
           src="images/img-home-initial/gancho.png"
           alt="Image of a metal hook with a sharp tip, wrapped in dirty bandages stained with blood. The hook is dripping blood and has a fly perched on it, creating a dark and macabre look."
         />
-        <h2>Hi! I am</h2>
-        <h1>Ana Paula</h1>
-        <h2>Front-end Developer</h2>
-        <p>
-          I am passionate about creating modern and authentic websites that not only attract visually but also provide
+        <h2 className="greetings-highlight-and-presentation">Hi! I am</h2>
+        <h1 className="name-highlight-and-presentation">Ana Paula</h1>
+        <h2 className="profession-highlight-and-presentation">Front-end Developer</h2>
+        <p className="paragraph-highlight-and-presentation">
+          I am passionate about creating modern and authentic websites that not only attract visually but also
+          <br />
+          provide
+          <br />
           unique, easy, and intuitive experiences.
         </p>
       </div>

@@ -1,6 +1,3 @@
-section {
-}
-
 .section-home-initial {
   @apply flex
   h-full
@@ -19,11 +16,41 @@ section {
   border-flame
   font-aref_ruqaa
   h-fit
+  p-8
+  relative
   rounded-4xl
-  w-96;
+  w-105;
 }
 
 .img-hook {
-  @apply h-40
+  @apply absolute
+  h-40
+  left-38
+  -top-18
   w-20;
+}
+
+.greetings-highlight-and-presentation {
+  @apply font-bold
+  text-3xl;
+}
+
+.name-highlight-and-presentation {
+  @apply font-bold
+  leading-25
+  text-6xl
+  text-flame;
+}
+
+.profession-highlight-and-presentation {
+  @apply font-bold
+  text-3xl;
+}
+
+.paragraph-highlight-and-presentation {
+  @apply font-bold 
+  leading-9
+  mt-6
+  text-center 
+  text-xl;
 }
