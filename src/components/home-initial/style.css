@@ -1,0 +1,29 @@
+section {
+}
+
+.section-home-initial {
+  @apply flex
+  h-full
+  items-center
+  justify-between
+  px-32;
+}
+
+.img-highlight-and-presentation {
+  @apply h-96
+  w-96;
+}
+
+.presentation-card {
+  @apply border-2
+  border-flame
+  font-aref_ruqaa
+  h-fit
+  rounded-4xl
+  w-96;
+}
+
+.img-hook {
+  @apply h-40
+  w-20;
+}

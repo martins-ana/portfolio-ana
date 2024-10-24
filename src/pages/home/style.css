@@ -1,0 +1,6 @@
+.home-container {
+  @apply bg-cream
+  flex
+  flex-col
+  h-screen;
+}

@@ -1,0 +1,28 @@
+.header-container {
+  @apply flex
+  flex-col
+  h-64;
+}
+
+header {
+  @apply bg-flame
+  h-28;
+}
+
+nav {
+  @apply flex
+  font-creepster
+  gap-9
+  h-full
+  justify-center
+  items-center
+  text-3xl
+  text-white;
+}
+
+img {
+}
+
+.header-img {
+  @apply h-28;
+}
