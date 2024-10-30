@@ -1,0 +1,48 @@
+.home-initial-presentation {
+  @apply flex
+  items-center
+  justify-between
+  p-32;
+}
+
+.home-initial-portrait {
+  @apply h-96
+  w-96;
+}
+
+.home-initial-card-description {
+  @apply bg-fairy-in-sky-gradient
+  border-2 border-white
+  flex
+  flex-col
+  gap-4
+  items-center
+  p-9
+  rounded-3xl
+  w-[540px];
+}
+
+.home-initial-title {
+  @apply text-4xl
+  text-start
+  w-full;
+}
+
+.home-initial-subtitle {
+  @apply text-4xl
+  text-start
+  w-full;
+}
+
+.home-initial-subtitle-2 {
+  @apply text-5xl
+  text-start
+  w-full;
+}
+
+.home-initial-description {
+  @apply leading-[50px]
+  text-2xl
+  text-center
+  w-[363px];
+}

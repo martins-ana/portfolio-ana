@@ -1,0 +1,5 @@
+.home-main {
+  @apply bg-fairy-in-sky-gradient
+  h-screen
+  w-screen;
+}

@@ -1,0 +1,10 @@
+.navigation-menu {
+  @apply border-b-2 border-black
+  flex
+  h-32
+  items-center
+  justify-between
+  px-44
+  text-4xl
+  w-screen;
+}
