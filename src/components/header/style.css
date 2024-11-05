@@ -2,9 +2,20 @@
   @apply border-b-2 border-black
   flex
   h-32
+  min-h-32
   items-center
   justify-between
   px-44
   text-4xl
   w-screen;
+}
+
+.header-buttons {
+  @apply border-b-2
+  border-transparent
+  duration-300 
+  hover:border-white 
+  p-4
+  rounded-2xl
+  transition-all;
 }
