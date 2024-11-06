@@ -23,7 +23,12 @@ export default function HomeInitial() {
             </p>
           </div>
           <div className='home-buttons'>
-            <Link className='button-download-and-get-in-touch' to=''>
+            <Link
+              className='button-download-and-get-in-touch'
+              to='https://drive.google.com/file/d/1d9Xbi9LFDKQtr8cP5mijsKYRBmbcS0EL/view'
+              target='_blank'
+              rel='noreferrer noopener'
+            >
               Download CV
             </Link>
             <Link className='button-download-and-get-in-touch' to={PAGES.CONTACT}>
@@ -37,6 +42,7 @@ export default function HomeInitial() {
           className='buttons-social-medias'
           to='mailto:martinsgarciaana@outlook.com'
           target='_blank'
+          rel='noreferrer noopener'
         >
           <EnvelopeSimple size={24} />
         </Link>
@@ -44,6 +50,7 @@ export default function HomeInitial() {
           className='buttons-social-medias'
           to='https://github.com/martins-ana'
           target='_blank'
+          rel='noreferrer noopener'
         >
           <GithubLogo size={24} />
         </Link>
@@ -51,6 +58,7 @@ export default function HomeInitial() {
           className='buttons-social-medias'
           to='https://www.linkedin.com/in/ana-paulamartins/'
           target='_blank'
+          rel='noreferrer noopener'
         >
           <LinkedinLogo size={24} />
         </Link>
