@@ -5,3 +5,12 @@
 html {
   @apply font-aref-ruqaa;
 }
+
+.global-main {
+  @apply bg-fairy-in-sky-gradient
+  flex
+  flex-col
+  h-screen
+  overflow-hidden
+  w-screen;
+}

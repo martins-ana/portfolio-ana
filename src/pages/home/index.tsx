@@ -1,11 +1,11 @@
-import Header from '../../components/header';
+import Header from 'src/components/header';
+import HomeInitial from 'src/components/home';
+import MenuSocialMedias from 'src/components/menu-social-medias';
 import './style.css';
-import HomeInitial from '../../components/home';
-import MenuSocialMedias from '../../components/menu-social-medias';
 
 export default function Home() {
   return (
-    <main className='home-main'>
+    <main className='global-main'>
       <Header />
       <HomeInitial />
       <MenuSocialMedias />

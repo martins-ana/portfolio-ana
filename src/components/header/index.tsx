@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './style.css';
-import { PAGES } from '../../constants';
+import { PAGES } from 'src/constants';
 
 export default function Header() {
   return (

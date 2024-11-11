@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { PAGES } from './constants';
 import Home from './pages/home';
+import AboutMe from './pages/about-me';
 
 const router = createBrowserRouter([
   {
@@ -9,7 +10,7 @@ const router = createBrowserRouter([
   },
   {
     path: PAGES.ABOUT,
-    element: <div>About page</div>,
+    element: <AboutMe />,
   },
   {
     path: PAGES.PROJECTS,

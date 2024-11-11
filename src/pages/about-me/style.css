@@ -1,0 +1,31 @@
+.description-about-me {
+  @apply flex
+  gap-4
+  items-center
+  justify-between
+  p-32;
+}
+
+.text-description-about-me {
+  @apply flex
+  flex-col
+  gap-4
+  max-w-[600px]
+  w-1/2;
+}
+
+.title-about-me {
+  @apply font-bold
+  text-5xl;
+}
+
+.paragraph-about-me {
+  @apply leading-10
+  text-2xl
+  text-justify;
+}
+
+.illustration-about-me {
+  @apply max-w-2xl
+  w-1/2;
+}
