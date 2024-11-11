@@ -72,31 +72,3 @@
   text-center
   rounded-2xl;
 }
-
-.home-social-medias {
-  @apply bg-fairy
-  border-2 border-white
-  bottom-9
-  flex
-  flex-col
-  fixed
-  gap-6
-  justify-center
-  p-2
-  right-9
-  rounded-3xl
-  w-fit;
-}
-
-.buttons-social-medias {
-  @apply duration-300
-  flex
-  hover:bg-petunia
-  h-12
-  items-center
-  justify-center
-  transition-all
-  text-white
-  rounded-3xl
-  w-12;
-}
